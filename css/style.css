@@ -3,7 +3,8 @@
 
 /* font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif; */
+  font-family: "Roboto", sans-serif; 
+  */
 
 * {
   margin: 0;
@@ -23,4 +24,56 @@ ol,
 ul {
   list-style: none;
 }
+
+.container {
+  width: 870px;
+  margin: 0 auto;
+}
 /* __________________________________END OF BASIC CSS_____________________________________ */
+
+#navBar {
+  background-color: #562eff;
+}
+
+.nav-bar_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar_left i {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+/* .nav-bar_right {
+} */
+
+.nav-bar_right .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-bar_right .nav-menu .nav-item {
+  display: inline-block;
+  padding: 0 40px;
+}
+.nav-bar_right .nav-menu .nav-item a {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-bar_right .nav-menu .nav-item.logo {
+  padding-right: 0;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+.nav-bar_right .nav-menu .nav-item img {
+  width: 51px;
+  height: 51px;
+}
+/* __________________________END OF NAVBAR SECTION___________________________________ */
