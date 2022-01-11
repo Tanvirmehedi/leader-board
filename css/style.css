@@ -28,13 +28,27 @@ ul {
 .container {
   width: 870px;
   margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+}
+.section_title h2 {
+  color: #562eff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
 }
 /* __________________________________END OF BASIC CSS_____________________________________ */
 
 #navBar {
   background-color: #562eff;
 }
-
+#navBar .container {
+  background-color: #562eff;
+  border-radius: 0px;
+  padding: 0;
+}
 .nav-bar_content {
   display: flex;
   justify-content: space-between;
@@ -77,3 +91,34 @@ ul {
   height: 51px;
 }
 /* __________________________END OF NAVBAR SECTION___________________________________ */
+
+main {
+  margin-top: 30px;
+}
+#top_box {
+  display: flex;
+}
+
+.top_players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 25px;
+  margin-top: 30px;
+}
+.top_players .player {
+  display: flex;
+  align-items: center;
+}
+.top_players .player img {
+  width: 56px;
+  height: 56px;
+}
+
+.top_players .player span {
+  font-family: "Poppins", sans-serif;
+  margin-left: 16px;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  line-height: 27px;
+}
