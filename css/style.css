@@ -1,0 +1,26 @@
+/* __________________________________FONT_____________________________________________ */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap");
+
+/* font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
+}
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+/* __________________________________END OF BASIC CSS_____________________________________ */
