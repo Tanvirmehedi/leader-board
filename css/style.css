@@ -97,6 +97,8 @@ main {
 }
 #top_box {
   display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
 }
 
 .top_players {
@@ -121,4 +123,131 @@ main {
   color: #000;
   font-weight: 500;
   line-height: 27px;
+}
+
+.top_hr {
+  width: 807px;
+  height: 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  border: 1px solid #d1d1d1;
+}
+/* END OF TOP PLAYER CSS */
+
+.top_blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blog {
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+}
+.top_blogs .thumbnail {
+  width: 177px;
+  height: 117px;
+}
+
+.info_box {
+  margin-left: 16px;
+  width: 170px;
+}
+
+.info_box .blog_title {
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+.info_box .blog_author {
+  font-size: 16px;
+  color: #562eff;
+}
+
+.info_box .blog_author span {
+  margin-right: 5px;
+  color: #9f9f9f;
+}
+
+/* END OF BLOG CSS */
+
+#latest_course {
+  padding-bottom: 30px;
+}
+.latest_course_box {
+  padding: 11px;
+  box-shadow: 0px 9px 16px 0px rgba(162, 162, 162, 0.397);
+  border-radius: 7px;
+}
+.latest_course_gridBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  grid-column-gap: 20px;
+}
+.course_thumbnail {
+  width: 224px;
+  height: 104px;
+  margin-bottom: 20px;
+}
+.latest_course_box h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20.0336px;
+  line-height: 23px;
+  color: #1e1e1e;
+}
+
+.latest_course_box p {
+  margin-top: 12px;
+  color: #ed6b4f;
+  font-weight: normal;
+  font-size: 14.6913px;
+  line-height: 17px;
+  font-family: "Roboto", sans-serif;
+}
+
+.latest_course_box .rettin_box {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.latest_course_box .rettin_box .icon i {
+  color: #ffc014;
+  font-size: 12px;
+}
+
+.icon #lst_icon {
+  color: #aeaeae;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.timer {
+  width: 94px;
+  height: 30px;
+  background-color: #ffe4e8;
+  color: #ff4a60;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 14.6913px;
+  line-height: 20px;
+}
+.reting_text {
+  font-family: "Poppins", sans-serif;
+  color: #a2a2a2;
+  font-weight: normal;
+  font-size: 14.6913px;
+  line-height: 22px;
+}
+.timer i {
+  margin-right: 5px;
 }
